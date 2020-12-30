@@ -1,5 +1,5 @@
 # Header
-navname: Bentham's Blog
+navname: Ugly Garden
 
 # navigatior items
 nav:
@@ -12,11 +12,11 @@ nav:
 favicon: /favicon.ico
 
 # Profile
-nickname: Jeremy Bentham
+nickname: Baileys Wu
 
 ### this variable is MarkDown form.
-description: Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** <br>Fusce eget urna vitae velit *eleifend interdum at ac* nisi.
-avatar: /image/avatar.jpeg
+description: 拙技园
+avatar: https://avatars3.githubusercontent.com/u/13285397?s=460&v=4
 
 # main menu navigation
 ## links key words should not be changed.
@@ -33,7 +33,7 @@ links:
   # Gallery:
   # RSS:
   # AliPay:
-  ZhiHu: https://www.zhihu.com/people/sirice
+  # ZhiHu: 
   # LinkedIn:
   # FaceBook:
   # Twitter:
@@ -43,13 +43,13 @@ links:
   # Sketch:
   # Gitlab:
   # Dribbble:
-  Instagram:
-  Reddit:
+  # Instagram:
+  # Reddit:
   # YouTube:
   # QQ:
-  # Weibo:
+  Weibo: http://weibo.com/Danliwoo
   # WeChat:
-  Github: https://github.com/Siricee
+  Github: https://github.com/Baileyswu
 
 # how links show: you have 2 choice--text or icon.
 links_text_enable: false
@@ -63,7 +63,7 @@ post_author_enable: true
 post_date_enable: true
 post_category_enable: true
 ## Post copyright
-post_copyright_enable: true
+post_copyright_enable: false
 
 post_copyright_author_enable: true
 post_copyright_permalink_enable: true
@@ -101,6 +101,6 @@ scripts:
 ## https://www.mathjax.org
 mathjax:
   enable: true
-  import: demand # global or demand
+  import: global # global or demand
   ## global: all pages will load mathjax,this will degrade performance and some grammers may be parsed wrong.
   ## demand: Recommend option,if your post need fomula, you can declare 'mathjax: true' in Front-matter
