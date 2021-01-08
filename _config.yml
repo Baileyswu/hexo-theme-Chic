@@ -9,23 +9,23 @@ nav:
   About: /about
 
 # favicon
-favicon: /favicon.ico
+favicon: /hollow.ico
 
 # Profile
 nickname: Baileys Wu
 
 ### this variable is MarkDown form.
 description: 拙技园
-avatar: https://avatars3.githubusercontent.com/u/13285397?s=460&v=4
+avatar: /13285397.png
 
 # main menu navigation
 ## links key words should not be changed.
 ## Complete url after key words.
 ## Unused key can be commented out.
 links:
-  Blog: /archives
-  # Category:
-  # Tags: 
+  Blog: https://www.douban.com/people/Baileyswu/
+  # Category: /category
+  Tags: /tag
   # Link:
   # Resume:
   # Publish:
