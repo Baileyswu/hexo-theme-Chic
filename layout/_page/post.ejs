@@ -31,6 +31,24 @@
             <% } %>
         </header>
 
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    <% if(page.tags.length!==0){%>
+                    <% page.tags.forEach(item=>{ %>
+                        <a href="<%- url_for(item.path) %>"># <%- item.name %></a>
+                    <% }) %>
+                        <% } %>
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">back</a>
+                <span>· </span>
+                <a href="<%- config.root %>">home</a>
+            </div>
+        </section>
+
         <div class="post-content">
             <%- page.content %>
         </div>
