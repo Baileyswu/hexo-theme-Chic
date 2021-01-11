@@ -28,7 +28,7 @@ how to add a tag page:
 
             <div class="tag-cloud-tags">
                 <%site.tags.forEach(item=>{%>
-                    <a href="<%-url_for(item.path)%>"><%- item.name%><small>(<%-item.length%>)</small></a>
+                    <a href="<%-url_for(item.path)%>" style="font-size: calc(<%-item.length%>px * 3 + 12px)"><%- item.name%></a>
                 <%})%>
             </div>
         </div>
