@@ -81,7 +81,7 @@ page_title_enable: true
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
-date_format: MMMM D, YYYY
+date_format: MM/DD, YYYY
 time_format: H:mm:ss
 
 # stylesheets loaded in the <head>
@@ -119,3 +119,14 @@ gitalk:
   createIssueManually: true #是否自动创建isssue，自动创建需要当前登录的用户为adminuser
   distractionFreeMode: false #是否启用快捷键(cmd|ctrl + enter) 提交评论
   
+valine:
+  enable: true # 如果你想用Valine评论系统，请设置enable为true
+  comment: false
+  views: true
+  appId: 0Fj98eQg9XCdRJPI2p1yxYCN-gzGzoHsz #your leancloud appId
+  appKey: Qsrhj224GhWhBgFDfnfmuRCD #your leancloud appKey
+  guest_info: nick,mail,link #valine comment header info
+  placeholder: Listen to Me # valine comment input placeholder(like: Please leave your footprints )
+  avatar: https://avatars3.githubusercontent.com/u/13285397?s=460&v=4 # gravatar style https://valine.js.org/avatar
+  pageSize: 10 # comment list page size
+  lang: zh-cn

@@ -3,3 +3,7 @@
     <div id="gitalk-container"></div>
     <%- partial('_plugins/gitalk') %>
 <% } %>
+<% if (theme.valine.enable) { %>
+    <div id="valine-container"></div>
+    <%- partial('_plugins/valine') %>
+<% } %>

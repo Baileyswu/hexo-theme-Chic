@@ -42,11 +42,14 @@
                         <% } %>
                 </span>
             </div>
-            <div>
-                <a href="javascript:window.history.back();">back</a>
-                <span>· </span>
-                <a href="<%- config.root %>">home</a>
-            </div>
+            <% if(theme.valine.views){ %>
+                <div>
+                    <span id="<%- url_for(page.path) %>" class="leancloud_visitors" data-flag-title="<%- page.title %>">
+                        <i class="leancloud-visitors-count">101</i>
+                        <em class="post-meta-item-text"> views </em>
+                    </span>
+                </div>
+            <% } %>
         </section>
 
         <div class="post-content">
