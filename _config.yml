@@ -104,6 +104,15 @@ mathjax:
   import: global # global or demand
   ## global: all pages will load mathjax,this will degrade performance and some grammers may be parsed wrong.
   ## demand: Recommend option,if your post need fomula, you can declare 'mathjax: true' in Front-matter
+  # Use 2.7.1 as default, jsdelivr as default CDN, works everywhere even in China
+  # cdn: //cdn.jsdelivr.net/npm/mathjax@2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  # For newMathJax CDN (cdnjs.cloudflare.com) with fallback to oldMathJax (cdn.mathjax.org).
+  # cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  # For direct link to MathJax.js with CloudFlare CDN (cdnjs.cloudflare.com).
+  # cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML
+  # For automatic detect latest version link to MathJax.js and get from Bootcss.
+  # cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
+  cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML
 
 gitalk:
   enable: true
