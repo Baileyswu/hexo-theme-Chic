@@ -7,6 +7,7 @@ nav:
   Categories: /category
   Tags: /tag
   About: /about
+  Friends: /friends
 
 # favicon
 favicon: /hollow.ico
@@ -139,3 +140,31 @@ valine:
   avatar: https://avatars3.githubusercontent.com/u/13285397?s=460&v=4 # gravatar style https://valine.js.org/avatar
   pageSize: 10 # comment list page size
   lang: zh-cn
+
+friends:
+  - name: 燕燕姐
+    href: https://shengrang.github.io/
+    avatar: http://shengrang.github.io/mogu.gif
+  - name: 俊俊oba
+    href: https://jiajungong.github.io
+    avatar: https://jiajungong.github.io/images/profile.JPG
+  - name: 小白
+    href: https://miniminiwhite.github.io/
+    avatar: https://miniminiwhite.github.io/images/edwin_avatar.jpg
+  - name: 海哥
+    href: https://blog.csdn.net/whai362
+    avatar: https://profile.csdnimg.cn/C/1/E/3_whai362
+    class: avatar_pic
+  - name: 小明
+    href: https://zongdaoming.github.io/
+    avatar: https://avatars1.githubusercontent.com/u/25998183?s=460&u=b5d3957a3b4f272ad861c8bd4009b8391ea7cac4&v=4
+  - name: 鸟叔
+    href: https://blog.csdn.net/mrbird_to_fly
+    avatar: https://profile.csdnimg.cn/A/5/B/3_mrbird_to_fly
+    class: avatar_pic
+  - name: yezi
+    href: https://www.soleaf.xyz/
+    avatar: http://www.soleaf.xyz/wp-content/uploads/2020/04/诺瓦露.jpg
+  # - name: shakex
+  #   href: https://shakex.github.io/
+  #   avatar: https://github.com/shakex/shakex.github.io/blob/master/images/kai.png
